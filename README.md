@@ -17,4 +17,4 @@
 </ul>
 
 <h2>🔗 Acesse o projeto</h2>
-<p>👉 <a href="https://projeto-hdc-host-one.vercel.app" target="_blank">hdc-host.vercel.app</a></p>
+<p>👉 <a href="https://projeto-hdc-host-one.vercel.app" target="_blank" rel="noopener noreferrer">hdc-host.vercel.app</a></p>

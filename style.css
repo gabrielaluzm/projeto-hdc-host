@@ -250,8 +250,242 @@ nav {
     color: #FFF;
     font-size: 24px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .searchdomain-container input[type="submit"]:hover {
     background-color: #5cda8e;
+}
+
+/* contact form */
+.contact-container {
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.contact-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin: 0 10px 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #2cc76a;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-container input[type="submit"]:hover {
+    background-color: #5dc286;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 20px;
+    margin: 0 auto;
+    background-color: #CCC;
+}
+
+/* responsividade */
+
+/* small laptops a partir de 1100px*/
+@media (max-width: 1100px) {
+
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* tablets 900px*/
+@media (max-width: 900px) {
+
+    .main-banner p {
+    padding: 0 5rem;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* smartphones 576px*/
+@media (max-width: 576px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 28px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+}
+
+/* small smartphones 390px */
+@media (max-width: 390px) {
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    .navbar-items li {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .main-banner h1 {
+        font-size: 32px;
+        padding: 0 1rem;
+    }
+
+    .main-banner p {
+        font-size: 18px;
+        padding: 0 2rem;
+    }
+
+    .services-container li {
+        padding: 10px;
+    }
+
+    .pricing-container h2 {
+        font-size: 28px;
+    }
+
+    .pricing-container p {
+        font-size: 16px;
+        padding: 0 1rem;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 1rem;
+        gap: 20px;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .plan .price {
+        width: 90px;
+        height: 90px;
+        font-size: 16px;
+        line-height: 90px;
+        margin-bottom: -40px;
+    }
+
+    .plan .plan-name {
+        font-size: 18px;
+        padding: 40px 0;
+    }
+
+    .plan li {
+        font-size: 14px;
+    }
+
+    .plan .plan-btn {
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 24px;
+    }
+
+    .searchdomain-container p {
+        font-size: 18px;
+        padding: 0 1rem;
+    }
+
+    .searchdomain-container input[type="submit"] {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+
+    .contact-container h2 {
+        font-size: 28px;
+    }
+
+    .contact-container p {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 20px 10px;
+    }
 }

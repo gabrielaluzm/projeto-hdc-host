@@ -2,6 +2,8 @@
 
 <p>Página fictícia de serviços de hospedagem, desenvolvida com <strong>HTML5</strong> e <strong>CSS3</strong>, totalmente <strong>responsiva</strong>.</p>
 
+<img width="826" height="514" alt="image" src="https://github.com/user-attachments/assets/edbe70ee-e4ea-4b57-b455-8973d87a7f38" />
+
 <h2>🚀 Recursos</h2>
 <ul>
   <li>Layout moderno e responsivo</li>
